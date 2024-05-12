@@ -1,0 +1,92 @@
+body {
+    background-color: #665d57;
+    color: #ddd7cb;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  padding: 70px  30px;
+
+    background-color: #15120b;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 1) 0px 15px 25px;
+
+}
+
+.Input-Group {
+    margin-top: 20px;
+}
+
+.container form{
+    position: relative;
+}
+.SubmitButton {
+    position:absolute;
+    right: 0;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #272216;
+    color: #ddd7cb;
+    margin-top: 5px;
+    border: none;
+    font-size: larger;
+}
+
+label {
+    font-weight: bold;
+}
+
+form input {
+    padding: 5px;
+    height: 35px;
+
+}
+form textarea{
+    padding: 8px;
+}
+
+form input,
+button,
+textarea {
+    display: block;
+}
+
+form input,
+textarea {
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: #272216;
+    border: none;
+    border-bottom: 3px solid #0000009a;
+    border-radius: 5px;
+    width: 450px;
+}
+
+input:focus {
+
+    border-bottom: 3px solid #edb832;
+}
+
+input,
+textarea:focus-visible {
+    outline: none;
+}
+
+textarea:focus {
+    border-bottom: 3px solid #edb832;
+}
+
+button:focus {
+    border: 2px solid #edb832;
+}
